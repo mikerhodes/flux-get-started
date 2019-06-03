@@ -5,7 +5,7 @@ metadata:
   name: redis
   namespace: demo
   annotations:
-    flux.weave.works/automated: "true"
+    flux.weave.works/automated: "false"
     flux.weave.works/tag.chart-image: semver:~4.0
     flux.weave.works/locked: 'true'
     flux.weave.works/locked_msg: '"Halt updates for now"'
